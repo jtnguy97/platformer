@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>money man</title>
+        <script type = "text/javascript" src = "scripts/phaser.min.js"></script>
+    </head>
+
+    <body style = "text-align: center;">
+        <script type = "text/javascript" src = "scripts/game.js"></script>
+        <div style = 'text-align: left;'><button id = "button_credit">credits</button></div>
+
+        <script>
+            show_credit = document.getElementById('button_credit')
+            show_credit.addEventListener('click', function(){
+                show_credit.innerHTML= `<div style = "text-align: left">audio: https://www.youtube.com/@CreatorAssets, 
+                https://www.youtube.com/@freesoundeffects9182</div> 
+                <div style = "text-align: left">art: jenny</div>
+                <div style = "text-align:left">code: phaser tutorial source code under MIT license https://phaser.io/tutorials/making-your-first-phaser-3-game/part1 </div>`});
+        </script>
+    </body>
+</html>
